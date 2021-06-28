@@ -1,0 +1,17 @@
+/* Datos y archivos CSS de la pagina  productos */
+
+/* General */
+
+.container {
+    overflow: hidden;
+}
+
+.carousel {
+    display:flex;
+    align-items: center;
+}
+
+.carousel img {
+    width: 800px;
+    height: 600px;
+}

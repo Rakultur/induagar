@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>productos</title>
+    <!-- Icono de la empresa -->
+    <link rel="icon" href="/imagenes/logos_empresa/Icono pag.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/css_p.css">
+    <!-- CND Iconos -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- CND BULMA -->
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <!-- CND BULMA CREATIVE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar is-dark">
+        <!-- Logotipo -->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <img src="/imagenes/logos_empresa/Induagar.PNG" width="112" height="28">
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!-- Menu y opciones -->
+        <div class="navbar-menu " id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item" href="/index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="/servicios.html">
+                    Servicios
+                </a>
+
+                <a class="navbar-item" href="/productos.html">
+                    Productos
+                </a>
+
+                <a class="navbar-item" href="#Acerca">
+                    Acerca de
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cuerpo de contenido -->
+
+    <!-- Carousel -->
+    <section class="section">
+        <div class="container">
+            <div id="Banner_Productos" class="carousel">
+                <div class="item">
+                    <!-- Slide Content -->
+                    <img src="/imagenes/imagenes_productos/P_1.jpg" alt="Imagen de maquinaria">
+                </div>
+                <div class="item">
+                    <!-- Slide Content -->
+                    <img src="/imagenes/imagenes_productos/P_2.jpg" alt="Imagen de maquinaria">
+                </div>
+                <div class="item">
+                    <!-- Slide Content -->
+                    <img src="/imagenes/imagenes_productos/P_3.jpg" alt="Imagen de maquinaria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer" id="Acerca">
+        <div class="content">
+            <!-- Titulo footer -->
+            <h1 class="title">
+                INDUAGAR S.A.S
+            </h1>
+            <!-- Elementos footer -->
+            <div class="columns">
+                <!-- Derechos -->
+                <div class="column" id="Derechos">
+                    <p>
+                        Todos los derechos de autor reservados a la propiedad privada.
+                    </p>
+                </div>
+                <!-- Mapa -->
+                <div class="column">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d351.52818828957925!2d-74.24369450213004!3d4.578314687596682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622218749255!5m2!1ses!2sco"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <!-- Iconos de redes sociales -->
+                <div class="column" id="Footer_Iconos">
+                    <ul>
+                        <li>
+                            <!-- Icono de correo electronico -->
+                            <i class="far fa-envelope">
+                                induagarcorp@Gamil.com
+                            </i>
+                        </li>
+                        <li>
+                            <!-- Icono de dirrecion -->
+                            <i class="fas fa-map-marker-alt">
+                                Carrera 13 # 50 - 45 H
+                            </i>
+                        </li>
+                        <li>
+                            <!-- Icono de Facebook -->
+                            <i class="fab fa-facebook-square">
+                                Facebook.com
+                            </i>
+                        </li>
+                        <li>
+                            <!-- Icono de Instragram -->
+                            <i class="fab fa-instagram">
+                                Instragram.com
+                            </i>
+                        </li>
+                        <li>
+                            <!-- Icono de Youtube -->
+                            <i class="fab fa-youtube">
+                                Youtube.com
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <!-- JS -->
+    <script src="/JS/js_general.js">
+    </script>
+    <!-- Bulma creative -->
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script>
+        // Banner principal
+        bulmaCarousel.attach('#Banner_Productos', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            pagination: false,
+            infinite: true
+        });
+        //
+    </script>
+</body>

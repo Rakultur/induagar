@@ -1,0 +1,78 @@
+/* Datos y archivos CSS de la pagina principal INDEX */
+
+/* General */
+
+.container {
+    overflow: hidden;
+}
+
+#boton{
+    display:flex;
+    align-items: center;
+}
+
+/* Identificador de carusel de imagenes */
+
+.carousel img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Identificador de la empresa */
+
+#home h1 {
+    text-align: center;
+}
+
+#home p {
+    text-align: justify;
+}
+
+
+
+/* Identificador de servicios */
+
+#Servicios h1 {
+    text-align: center;
+}
+
+#Servicios p {
+    text-align: justify;
+}
+
+
+/* Identificador de productos */
+
+#Productos h1 {
+    text-align: center;
+}
+
+#Productos p {
+    text-align: justify;
+}
+
+#Texto_Productos {
+    display: flex;
+    align-items: center;
+
+}
+
+/* Identificardor footer */
+
+#Acerca h1 {
+    text-align: center;
+}
+
+#Derechos {
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Iconos {
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Iconos ul{
+    list-style: none;
+}
