@@ -2,6 +2,10 @@
 
 /* General */
 
+div{
+    overflow:hidden;
+}
+
 .container {
     overflow: hidden;
 }
