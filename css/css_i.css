@@ -7,7 +7,7 @@ div{
 }
 
 .container {
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 #boton{
@@ -62,6 +62,7 @@ div{
 }
 
 /* Identificardor footer */
+
 
 #Acerca h1 {
     text-align: center;
