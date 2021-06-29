@@ -2,8 +2,8 @@
 
 /* General */
 
-.container {
-    overflow: hidden;
+div{
+    overflow:hidden
 }
 
 .carousel {
@@ -11,7 +11,27 @@
     align-items: center;
 }
 
+/* Identificador de carusel de imagenes */
+
 .carousel img {
-    width: 800px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+}
+
+/* Titulo + informacion */
+
+#informacion{
+    text-align: justify;
+}
+
+#informacion h1 {
+    color: red;
+}
+
+
+/* Productos */
+
+.productos{
+    background-color: red;
+    margin: 5px;
 }
