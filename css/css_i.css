@@ -1,55 +1,42 @@
-/* Datos y archivos CSS de la pagina principal INDEX */
+/* Datos y archivos CSS de la pagina principal index.html */
 
-/* General */
+/* General -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-div{
-    overflow:hidden;
+/* Css general para desbordamiento de los DIV */
+
+div {
+    overflow: hidden;
 }
 
-.container {
-    overflow: hidden; 
+/* Css general para parrafos */
+
+.Parrafos-i {
+    text-align: justify;
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#boton{
-    display:flex;
-    align-items: center;
+/* Titulos y subtitulos */
+
+.titulos-i {
+    text-align: center;
 }
 
-/* Identificador de carusel de imagenes */
+/* Identificador del banner principal + informacion + carusel -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Carusel de imagenes */
 
 .carousel img {
     width: 400px;
     height: 400px;
 }
 
-/* Identificador de la empresa */
+/* Identificador de servicios -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 
-#home h1 {
-    text-align: center;
-}
+/* Identificador de productos -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 
-#home p {
-    text-align: justify;
-}
-
-
-
-/* Identificador de servicios */
-
-#Servicios h1 {
-    text-align: center;
-}
-
-#Servicios p {
-    text-align: justify;
-}
-
-
-/* Identificador de productos */
-
-#Productos h1 {
-    text-align: center;
-}
 
 #Productos p {
     text-align: justify;
@@ -58,15 +45,10 @@ div{
 #Texto_Productos {
     display: flex;
     align-items: center;
-
 }
 
-/* Identificardor footer */
+/* Identificardor footer -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-
-#Acerca h1 {
-    text-align: center;
-}
 
 #Derechos {
     display: flex;
@@ -78,6 +60,6 @@ div{
     align-items: center;
 }
 
-#Footer_Iconos ul{
+#Footer_Iconos ul {
     list-style: none;
 }
