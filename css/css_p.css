@@ -1,37 +1,64 @@
-/* Datos y archivos CSS de la pagina  productos */
+/* Datos y archivos CSS de la pagina principal index.html */
 
-/* General */
+/* General -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-div{
-    overflow:hidden
+/* Css general para desbordamiento de los DIV */
+
+div {
+    overflow: hidden;
 }
 
-.carousel {
-    display:flex;
-    align-items: center;
+/* Css general para parrafos */
+
+.Parrafos-p {
+    text-align: justify;
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-/* Identificador de carusel de imagenes */
+/* Titulos y subtitulos */
+
+.titulos-p {
+    text-align: center;
+}
+
+.subtitulos-p {
+    text-align: center;
+}
+
+/* Productos fondo */
+
+.productos{
+    text-align: center;
+    background-color: #dfdfdf;
+    border: 1px solid #000000;
+}
+
+
+/* Identificador del banner principal + informacion + carusel -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Carusel de imagenes */
 
 .carousel img {
     width: 400px;
     height: 400px;
 }
 
-/* Titulo + informacion */
+/* Identificardor footer -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-#informacion{
-    text-align: justify;
+
+#Derechos {
+    display: flex;
+    align-items: center;
 }
 
-#informacion h1 {
-    color: red;
+#Footer_Iconos {
+    display: flex;
+    align-items: center;
 }
 
-
-/* Productos */
-
-.productos{
-    background-color: red;
-    margin: 5px;
+#Footer_Iconos ul {
+    list-style: none;
 }
