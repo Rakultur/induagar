@@ -2,6 +2,39 @@
 
 /* General */
 
-.content{
+div{
+    overflow: hidden;
+}
+
+/* Css general para parrafos */
+
+.Parrafos-s {
     text-align: justify;
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Titulos y subtitulos */
+
+.titulos-s {
+    text-align: center;
+}
+
+/* Identificardor footer -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+
+#Derechos {
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Iconos {
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Iconos ul {
+    list-style: none;
 }
